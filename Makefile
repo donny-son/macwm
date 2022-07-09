@@ -12,7 +12,7 @@ install-spacebar:
 	brew services start spacebar
 
 .PHONY: install
-install: install-yabai install-spacebar
+install: install-spacebar install-yabai 
 	echo "Amethyst Beta(0.16.0) from https://github.com/ianyh/Amethyst/releases"
 
 .PHONY: to-local
