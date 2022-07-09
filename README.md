@@ -8,7 +8,6 @@ Note that Amethyst must be 0.16.0 version since prior versions do not support co
 
 https://github.com/ianyh/Amethyst/releases
 
-
 **Installation and Configuration**
 
 ```bash
@@ -48,3 +47,8 @@ brew install cmacrae/formulae/spacebar
 brew services start spacebar
 cp ./spacebar ~/.config/spacebar
 ```
+
+## Installation
+
+1. `make to-local` to copy remote settings to local system.
+2. `make from-local` to copy local settings to this repository.
