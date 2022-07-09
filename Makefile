@@ -11,6 +11,10 @@ install-spacebar:
 	brew install cmacrae/formulae/spacebar
 	brew services start spacebar
 
+.PHONY: install
+install: install-yabai install-spacebar
+	echo "Amethyst Beta(0.16.0) from https://github.com/ianyh/Amethyst/releases"
+
 .PHONY: to-local
 to-local:
 	echo "COPYING CONFIGS TO THIS MACHINE..."
