@@ -29,4 +29,4 @@ spacebar -m config space_icon_strip     I II III IV V VI VII VIII IX X
 spacebar -m config space_icon           
 spacebar -m config clock_icon           
 spacebar -m config dnd_icon             
-spacebar -m config clock_format         "%d/%m/%y %R"
+spacebar -m config clock_format         "%Y.%m.%d.%H%M"
