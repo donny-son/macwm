@@ -1,10 +1,10 @@
 #* Installation
-.PHONY: install-yabai
-install-yabai:
-	brew install koekeishiya/formulae/yabai
-	sudo yabai --install-sa
-	sudo yabai --load-sa
-	brew services start yabai
+# .PHONY: install-yabai
+# install-yabai:
+# 	brew install koekeishiya/formulae/yabai
+# 	sudo yabai --install-sa
+# 	sudo yabai --load-sa
+# 	brew services start yabai
 
 .PHONY: install-spacebar
 install-spacebar:
@@ -12,7 +12,7 @@ install-spacebar:
 	brew services start spacebar
 
 .PHONY: install
-install: install-spacebar install-yabai 
+install: install-spacebar
 	echo "Amethyst Beta(0.16.0) from https://github.com/ianyh/Amethyst/releases"
 
 .PHONY: to-local
