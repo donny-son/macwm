@@ -16,7 +16,7 @@ to-local:
 	echo "COPYING CONFIGS TO THIS MACHINE..."
 	cp ./amethyst.yml ~/.amethyst.yml
 	cp ./yabairc ~/.yabairc
-	cp -r ./spacebar ~/.config/spacebar
+	cp -r ./spacebar ~/.config
 	sudo chmod +x ~/.config/spacebar/spacebarrc
 	echo "Finished!"
 
@@ -25,6 +25,6 @@ from-local:
 	echo "COPYING CONFIGS FROM LOCAL MACHINE..."
 	cp ~/.amethyst.yml ./amethyst.yml
 	cp ~/.yabairc ./yabairc
-	cp -r ~/.config/spacebar ./spacebar
+	cp -r ~/.config/spacebar .
 	cp ~/.amethyst.yml ./amethyst.yml
 	echo "Finished!"
